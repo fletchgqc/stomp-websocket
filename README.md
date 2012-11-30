@@ -34,7 +34,7 @@ To continuously run tests on file changes:
 ## Browser Tests
 
 * Make sure you have a running STOMP broker which supports the WebSocket protocol
- (see the [documentation][doc])
+ (see the [documentation][doc]). Note: although ActiveMQ 5.5 claims to support websockets, [it doesn't work](http://github.com/jmesnil/stomp-websocket/issues/25) with this library. Try 5.6.0+.
 * Open in your web browser the project's [test page](browsertests/index.html)
 * Check all tests pass
 
